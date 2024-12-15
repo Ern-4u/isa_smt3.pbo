@@ -152,7 +152,12 @@
     </tr>
   </tbody>
 </table>
+<<<<<<< HEAD
 
+>>>>>>>
+
+<h2>membuat class buah</h2>
+>>>>>>> b20c408 (menambahkan penjelasan crud)
   
   <?php
 class buah {
@@ -178,6 +183,10 @@ echo "<br>";
 echo $pisang->get_name();
 echo "<br>";
 
+?>
+<h2>menambahkan class mobil</h2>
+<?php
+
 class mobil {
   public $warna;
 
@@ -196,5 +205,45 @@ $toyota->set_warna('biru metalik');
 echo $toyota->get_warna();
 ?>
 
+<h2>penjelasan tentang CRUD</h2>
+<h3>file koneksi_db</h3>
+
+<p>
+  <img src="http://localhost/isa_smt3.pbo/koneksi_db.png" width="" height="">
+  <br>$host="localhost";
+  <br>$user="root";
+  <br>$password="";
+  <br>$db="db_isa";
+
+  <ul>Variabel-variabel ini digunakan untuk menyimpan detail konfigurasi koneksi ke database:
+    <li>$host: Nama host server database. localhost berarti server database berjalan di komputer lokal.</li>
+    <li> $user: Nama pengguna (user) untuk mengakses database. Di sini, user-nya adalah root, yang merupakan default user di MySQL untuk pengembangan lokal.</li>
+    <li>$password: Kata sandi untuk user tersebut. Dalam hal ini, password-nya kosong (""), yang sering digunakan untuk pengaturan lokal default.</li>
+    <li>$db: Nama database yang akan dihubungkan, yaitu db_isa.</li>
+  </ul>
+ 
+</p>
+
+<h3>File create.php</h3>
+<p>
+  <img src="http://localhost/isa_smt3.pbo/create_1.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/create_2.png" alt="">
+</p>
+
+<h3>file index.php</h3>
+<p>
+  <img src="http://localhost/isa_smt3.pbo/index_1.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/index_2.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/index_3.png" alt="">
+</p>
+<h3>File update</h3>
+<p>
+  <img src="http://localhost/isa_smt3.pbo/update_1.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/update_2.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/update_3.png" alt="">
+  <img src="http://localhost/isa_smt3.pbo/update_4.png" alt="">
+</p>
+</div>
 </body>
 </html>
+
