@@ -152,12 +152,12 @@
     </tr>
   </tbody>
 </table>
-<<<<<<< HEAD
 
->>>>>>>
+
+
 
 <h2>membuat class buah</h2>
->>>>>>> b20c408 (menambahkan penjelasan crud)
+
   
   <?php
 class buah {
